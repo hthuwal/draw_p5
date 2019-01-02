@@ -16,8 +16,8 @@ class Particle:
         self.pos.angle = angle
 
     def show(self):
-        fill(255)
-        stroke(255)
+        fill(0)
+        stroke(0)
         circle((self.pos.x, self.pos.y), self.r)
 
     def finished(self):
