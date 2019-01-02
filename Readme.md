@@ -4,7 +4,7 @@
 
 `pip install p5`
 
-### [Snowflakes](https://www.youtube.com/watch?v=XUA8UREROYE)
+### [1. Snowflakes](https://www.youtube.com/watch?v=XUA8UREROYE)
 
 - Brownian Tree Snowflake
 
@@ -18,8 +18,8 @@
 </table>
 
 
-### [Toothpick Sequence](https://www.youtube.com/watch?v=-OL_sw2MiYw)
+### [2. Toothpick Sequence](https://www.youtube.com/watch?v=-OL_sw2MiYw)
 
-`python fractal_toothpick_sequence/fractal.py`
+`python fractal-toothpick-sequence/fractal.py`
 
 ![](examples/fractal_render.gif)
