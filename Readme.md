@@ -22,10 +22,4 @@
 
 `python fractal_toothpick_sequence/fractal.py`
 
-<img 
-    src="examples/fractal_render.gif" 
-    style="display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;"
-/>
+![](examples/fractal_render.gif)
