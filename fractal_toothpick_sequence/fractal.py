@@ -10,7 +10,7 @@ factor = 1
 
 
 def setup():
-    size(1080, 1080)
+    size(500, 500)
     initial = ToothPick(0, 0, ishorizontal=True)
     toothpicks.append(initial)
     points[initial.v1] += 1
@@ -60,6 +60,7 @@ def draw():
         points[each.v2] += 1
 
     toothpicks.extend(next_gen)
+    # save_frame()
 
 
 if __name__ == '__main__':

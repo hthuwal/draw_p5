@@ -6,8 +6,7 @@ particles = []
 
 
 def setup():
-    size(1920, 1080)
-    # full
+    size(500, 500)
     rotate(PI / 6)
     global current
     current = Particle(width / 2, 0)
@@ -35,6 +34,8 @@ def draw():
             current.show()
             for p in particles:
                 p.show()
+
+    # save_frame()
 
 
 if __name__ == '__main__':
